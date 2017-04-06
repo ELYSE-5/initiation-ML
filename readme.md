@@ -38,7 +38,8 @@ conda install dask distributed
 
 ## Récupérer le dossier
 
-Maintenant que les différents outils sont installés, nous pouvons faire une copie du dépot sur le serveur, vers votre ordinateur. Pour cela il suffit d'ouvrir un terminal, se placer dans un dossier et de lancer la commande :
+Maintenant que les différents outils sont installés, nous pouvons faire une copie du dépot sur le serveur, vers votre ordinateur en local. Pour cela il suffit d'ouvrir un terminal, se placer dans un dossier et de lancer la commande :
+
 ```
-git clone
+git clone https://github.com/NazBen/initiation-ML.git
 ```
