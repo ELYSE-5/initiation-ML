@@ -102,7 +102,7 @@ Vous pouvez désormais syncroniser votre dépot local vers le serveur. Pour cela
 git push --set-upstream origin master
 ```
 
-Par la suite, le push se feront uniquement avec la commande :
+Vous devrez ensuite suivre les indications en ajoutant votre identifiant GitHub et votre mot de passe. Par la suite, le push se feront uniquement avec la commande :
 
 ```
 git push
