@@ -1,28 +1,32 @@
-# Initiation au challenge de Machine Learning
+# Initiation aux challenges de Machine Learning
 
 ## Matériel nécessaire
 
-Nous travaillerons sur Python pour ce TP. Pour le bon déroulement du TP, je vous invite à télécharger la dernière version d'[Anaconda](https://www.continuum.io/Downloads). Pour ce TP nous travaillerons sur la version 3 de Python. Je vous invite donc à télécharger Anaconda pour python 3.
+Ce TP se déroule sur Python. Pour le bon déroulement du TP, je vous invite à télécharger la dernière version d'[Anaconda](https://www.continuum.io/Downloads). Python 3 est choisi par défaut. Je vous invite donc à télécharger la version 3 d'Anaconda.
 
 ### Installation 
 
+L'installation diffère selon le système d'exploitation. Assurez vous de télécharger la version correspondant à votre processeur : 32 ou 64 bit. Je suppose par la suite que vous avez une version 64 bit de votre système d'exploitation.
+
+Téléchargez le fichier d'installation d'Anaconda sur votre PC et suivez les instructions suivantes selon votre système d'exploitation.
+
 #### Sur Windows
 
-Exécuter le .exe et suivre les instructions.
+Exécutez le .exe et suivez les instructions de l'interface graphique.
 
 #### Sur Linux et macOS
 
-Exécuter le .sh :
+Ouvrez un terminal, allez vers l'emplacement du fichier d'installation et exécuter le .sh avec la commande :
 
 ```
 bash Anaconda3-(version)-Linux-x86_64.sh 
 ```
 
-Le .bashrc devrait être automatiquement modifié pour pointer vers Anaconda.
+La balise `(version)` représente la version d'Anaconda téléchargé. Suivez les instructions sur le terminal. A la fin de l'installation votre .bashrc devrait être automatiquement modifié pour pointer vers Anaconda.
 
 ### Packages
 
-Nous aurons besoin de différents modules python. Ouvrez un terminal de commande et exécutez la commande ci-dessous pour installer et/ou mettre à jour les packages nécessaires.
+Pour ce TP, nous aurons besoin de différents modules python. La plupart sont déjà installés avec Anaconda. Pour installer et/ou mettre à jour les packages nécessaires, ouvrez un terminal de commande et exécutez la commande ci-dessous :
 
 ``` 
 conda install numpy matplotlib scipy jupyter notebook scikit-learn git
@@ -30,13 +34,13 @@ conda install numpy matplotlib scipy jupyter notebook scikit-learn git
 
 ### Librairies optionnelles
 
-Pour aller plus loins certaines librairies sont intéressantes et peuvent servir pour certains problèmes.
+Pour aller plus loin je vous invite à installer la librairie dask et dask-distributed qui pourront servir pour la parallélisation des calculs. Lancez la commande :
 
 ```
 conda install dask distributed 
 ```
 
-## Récupérer le dossier
+## Récupérer le dossier du TP
 
 Maintenant que les différents outils sont installés, nous pouvons faire une copie du dépot sur le serveur, vers votre ordinateur en local. Pour cela il suffit d'ouvrir un terminal, se placer dans un dossier et de lancer la commande :
 
