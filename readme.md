@@ -1,6 +1,6 @@
 # Initiation aux challenges de Machine Learning
 
-## Matériel nécessaire
+## Matériel nécessairee
 
 Ce TP se déroule sur Python. Pour le bon déroulement du TP, je vous invite à télécharger la dernière version d'[Anaconda](https://www.continuum.io/Downloads). Python 3 est choisi par défaut. Je vous invite donc à télécharger la version 3 d'Anaconda.
 
