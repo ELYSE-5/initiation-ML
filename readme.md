@@ -1,8 +1,14 @@
 # Initiation aux challenges de Machine Learning
 
-## Matériel nécessairee
+## Objectifs
 
-Ce TP se déroule sur Python. Pour le bon déroulement du TP, je vous invite à télécharger la dernière version d'[Anaconda](https://www.continuum.io/Downloads). Python 3 est choisi par défaut. Je vous invite donc à télécharger la version 3 d'Anaconda.
+Ce TP a pour but d'initier les étudiants aux challenges de Machine Learning en classification et régression. Différents exemples issus des datasets de [Kaggle](https://www.kaggle.com) sont utilisés. 
+
+En bonus, une initiation à différents outils pour la parallélisation de calculs en local ou sur un cluster.
+
+## Matériel nécessaire
+
+Pour le bon déroulement du TP, je vous invite à télécharger la dernière version d'[Anaconda](https://www.continuum.io/Downloads). Python 3 est choisi par défaut. Je vous invite donc à télécharger la version 3 d'Anaconda.
 
 ### Installation 
 
@@ -22,7 +28,7 @@ Ouvrez un terminal, allez vers l'emplacement du fichier d'installation et exécu
 bash Anaconda3-(version)-Linux-x86_64.sh 
 ```
 
-La balise `(version)` représente la version d'Anaconda téléchargé. Suivez les instructions sur le terminal. A la fin de l'installation votre .bashrc devrait être automatiquement modifié pour pointer vers Anaconda.
+La balise `(version)` représente la version d'Anaconda téléchargé. Suivez les instructions sur le terminal. A la fin de l'installation votre .bashrc devrait être automatiquement modifié pour pointer vers la librairie Anaconda.
 
 ### Packages
 
@@ -37,7 +43,8 @@ conda install numpy pandas matplotlib scipy jupyter notebook scikit-learn git
 Pour aller plus loin je vous invite à installer la librairie dask et dask-distributed qui pourront servir pour la parallélisation des calculs. Lancez la commande :
 
 ```
-conda install dask distributed 
+conda install -c conda-forge ipyparallel ujson dask distributed bokeh pytables
+pip install -U snakeviz dask distributed
 ```
 
 ## Récupérer le dépôt Git
