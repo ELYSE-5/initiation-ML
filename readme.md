@@ -1,6 +1,6 @@
 # Initiation aux challenges de Machine Learning
 
-## Objectifs 55555555555555555555555
+## Objectifs 
 
 Ce TP a pour but d'initier les étudiants aux challenges de Machine Learning en classification et régression. Différents exemples issus des datasets de [Kaggle](https://www.kaggle.com) sont utilisés. 55555555555555
 
